@@ -37,16 +37,17 @@ STFT suffers from limited resolution at low frequencies, making it less effectiv
 The CQT-based model demonstrated consistent performance across all 10 music genres, confirming its robustness and generalization ability.
 
 Genre-Wise Performance
-Genre	Accuracy	F1 Score
-Classical	97.37%	0.9730
-Country	98.68%	0.9867
-Electronic	94.74%	0.9474
-Folk	96.05%	0.9600
-Hip Hop	98.68%	0.9870
-Jazz	96.05%	0.9610
-Old Historic	98.68%	0.9867
-Pop	94.74%	0.9474
-Rock	98.68%	0.9870
-Soul R&B	98.68%	0.9867
+| Genre        | Accuracy | F1 Score |
+| ------------ | -------- | -------- |
+| Classical    | 97.37%   | 0.9730   |
+| Country      | 98.68%   | 0.9867   |
+| Electronic   | 94.74%   | 0.9474   |
+| Folk         | 96.05%   | 0.9600   |
+| Hip Hop      | 98.68%   | 0.9870   |
+| Jazz         | 96.05%   | 0.9610   |
+| Old Historic | 98.68%   | 0.9867   |
+| Pop          | 94.74%   | 0.9474   |
+| Rock         | 98.68%   | 0.9870   |
+| Soul R\&B    | 98.68%   | 0.9867   |
 
 These results confirm that CQT with subband features is better suited for music-based audio forgery detection than traditional STFT.
