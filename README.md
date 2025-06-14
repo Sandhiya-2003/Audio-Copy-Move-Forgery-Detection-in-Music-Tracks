@@ -5,6 +5,7 @@
 Final Semester UG Project Submission – B.E. Computer Science and Engineering
 
 *Project Summary:*
+
 This project presents a method for detecting copy-move forgeries in music tracks, where a segment is duplicated and reinserted within the same audio. Unlike speech data, music presents unique challenges due to its harmonic structures and genre diversity.
 
 To address this, the project proposes:
@@ -23,6 +24,7 @@ To address this, the project proposes:
 - Achieved a test accuracy of 97.24% and an F1 Score of 0.9723
 
 *Results:*
+
 The proposed method using CQT spectrograms with octave subbanding and a 1D Xception model significantly outperformed the baseline STFT-based approach.
 
 *CQT vs STFT Performance Comparison*
