@@ -26,9 +26,10 @@ To address this, the project proposes:
 The proposed method using CQT spectrograms with octave subbanding and a 1D Xception model significantly outperformed the baseline STFT-based approach.
 
 CQT vs STFT Performance Comparison
-Feature Representation	Accuracy	F1 Score
-CQT Subbands + Xception	97.24%	0.9723
-STFT + Xception	78.83%	0.7858
+| Feature Representation      | Accuracy   | F1 Score   |
+| --------------------------- | ---------- | ---------- |
+| **CQT Subbands + Xception** | **97.24%** | **0.9723** |
+| STFT + Xception             | 78.83%     | 0.7858     |
 
 CQT provides logarithmic frequency scaling, better capturing musical harmonics and tonal variations.
 
