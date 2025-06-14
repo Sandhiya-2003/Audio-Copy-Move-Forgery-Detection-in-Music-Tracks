@@ -1,5 +1,7 @@
 *Project Title*
+
 ***Audio Copy-Move Forgery Detection in Music Tracks***
+
 Final Semester UG Project Submission – B.E. Computer Science and Engineering
 
 *Project Summary:*
