@@ -18,18 +18,28 @@ To address this, the project proposes:
     - Achieved: 97.24% test accuracy and 0.9723 F1-score
 
 *Results*:
+    - The proposed method using **CQT spectrogram with octave subbanding** and a **1D Xception model** significantly outperformed the baseline STFT-based approach.
+    
+*CQT vs STFT Performance Comparison*:
+    
+| Feature Representation      | Accuracy | F1 Score |
+|-----------------------------|----------|----------|
+| **CQT Subbands + Xception** | **97.24%**   | **0.9723**   |
+| STFT + Xception             | 78.83%   | 0.7858   |
 
-    The proposed method using **CQT spectrogram with octave subbanding** and a **1D Xception model** significantly outperformed the baseline STFT-based approach.
-    
-    *CQT vs STFT Performance Comparison*:
-    
-    | Feature Representation      | Accuracy | F1 Score |
-    |-----------------------------|----------|----------|
-    | CQT Subbands + Xception | 97.24%   | 0.9723   |
-    | STFT + Xception             | 78.83%   | 0.7858   |
-    
-    - *CQT* provides logarithmic frequency scaling, better capturing musical harmonics and tonal variations.
-    - *STFT* suffers from limited resolution at low frequencies, making it less effective for detecting music forgeries.
-    - The CQT-based model also demonstrated consistent performance across all 10 music genres, confirming its robustness and generalization ability.
-  
-    These results confirm that **CQT with subband features** is better suited for music-based audio forgery detection than traditional STFT.
+*CQT* provides logarithmic frequency scaling, better capturing musical harmonics and tonal variations. *STFT* suffers from limited resolution at low frequencies, making it less effective for detecting music forgeries. The CQT-based model also demonstrated consistent performance across all 10 music genres, confirming its robustness and generalization ability.
+
+| Genre        | Accuracy | F1 Score |
+| ------------ | -------- | -------- |
+| Classical    | 97.37%   | 0.9730   |
+| Country      | 98.68%   | 0.9867   |
+| Electronic   | 94.74%   | 0.9474   |
+| Folk         | 96.05%   | 0.9600   |
+| Hip Hop      | 98.68%   | 0.9870   |
+| Jazz         | 96.05%   | 0.9610   |
+| Old Historic | 98.68%   | 0.9867   |
+| Pop          | 94.74%   | 0.9474   |
+| Rock         | 98.68%   | 0.9870   |
+| Soul R\&B    | 98.68%   | 0.9867   |
+
+- These results confirm that **CQT with subband features** is better suited for music-based audio forgery detection than traditional STFT.
