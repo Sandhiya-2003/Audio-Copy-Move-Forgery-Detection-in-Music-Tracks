@@ -25,7 +25,7 @@ To address this, the project proposes:
 *Results:*
 The proposed method using CQT spectrograms with octave subbanding and a 1D Xception model significantly outperformed the baseline STFT-based approach.
 
-CQT vs STFT Performance Comparison
+*CQT vs STFT Performance Comparison*
 | Feature Representation      | Accuracy   | F1 Score   |
 | --------------------------- | ---------- | ---------- |
 | **CQT Subbands + Xception** | **97.24%** | **0.9723** |
@@ -37,7 +37,7 @@ STFT suffers from limited resolution at low frequencies, making it less effectiv
 
 The CQT-based model demonstrated consistent performance across all 10 music genres, confirming its robustness and generalization ability.
 
-Genre-Wise Performance
+*Genre-Wise Performance of the CQT based approach*
 | Genre        | Accuracy | F1 Score |
 | ------------ | -------- | -------- |
 | Classical    | 97.37%   | 0.9730   |
